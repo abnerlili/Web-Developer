@@ -1,0 +1,280 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ededed;
+    font-family: 'Trebuchet MS';
+}
+
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
+}
+
+    header span {
+        color: #50e3c2;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #50e3c2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 0 0 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+.login {
+    text-align: center;
+    display: inline-table;
+}
+
+.login ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.login li {
+  display: inline-block;
+
+}
+
+.login li a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+}
+
+
+.login a {
+    font-weight: 800;
+    color: #4a4a4a;
+}
+
+.content {
+    width: 100%;
+    height: 1200px;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #50e3c2;
+    margin-bottom: 20px;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.main_articles {
+    width: 70%;
+    float: right;
+    height: auto;
+    margin-left: 10px;
+}
+
+.side_article {
+    width: 25%;
+    float: left;
+    height: 600px;
+    border-right: 1px dotted #6d6d6d;
+}
+
+.siteDescription {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+/*    width: 95%;*/
+
+}
+
+.desImage {
+
+    margin: 0 0 0 40px;
+}
+
+    .desImage img {
+        width: 148px;
+        height: 214px;
+        margin-left: 0px;
+        border: 0px solid #6d6d6d;
+    }
+
+.des {
+
+    width: 100%;
+    height: 100px;
+    padding: 0;
+}
+
+.des h4, p {
+    margin: 1px;
+}
+
+.ads {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+/*    text-align: center;*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+/*    background-color: #e5eff3;*/
+}
+
+.bestselling {
+    display: flex;
+    flex-direction: column;
+}
+
+.ads span, form h4 {
+    color: #50e3c2;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+/**********************************
+ASIDE
+**********************************/
+
+.form-control{
+  display: block;
+  width: 100%;
+  padding: 4px 0px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  outline: 0;
+  box-shadow: inset 0 1px 1px #fff, 0 0 8px  #50e3c2;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    width: 71px;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-radius: 4px;
+    background-color: #50e3c2;
+    color:#fff;
+}
+.btn:focus {
+  color: #333;
+  background-color: #30e3c2;
+  text-decoration: none;
+}
+
+
+/***************************************
+SECTION: MEDIA QUERIES
+****************************************/
+
+@media all and (max-width: 900px) {
+    .side_article { /* Hide advertisement panel*/
+        display: none;
+        visibility: hidden;
+    }
+
+    .siteDescription {
+        width: 100%; /* Earlier 70%*/
+    }
+
+    .main_articles {
+        width: 90%;/* Earlier 95%*/
+    }
+}
+
+@media all and (max-width: 500px) {
+    header {
+        height: 70px;
+        line-height: 70px;
+    }
+
+        header span {
+            font-size: 16px;
+        }
+
+    .side_article {
+        display: none;
+        visibility: hidden;
+    }
+
+    .main_articles {
+        width: 90%;
+    }
+
+    .siteDescription {
+        width: 95%;
+        height: auto;
+        display: block;
+    }
+
+    .desImage {
+        margin: auto;
+        width: 75%;
+        height: auto;
+    }
+
+        .desImage img {
+            width: 50%;
+            margin-left: 5px;
+        }
+
+    .des {
+        margin: auto;
+        margin-top: 10px;
+
+    }
+}
+
+/********************************************/
+

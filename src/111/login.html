@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Test CSS3 HTML5</title>
+    <!--[if IE]>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <link href="IEStyleSheet.css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if !IE]> -->
+    <link href="css/login.css" rel="stylesheet" type="text/css" media="only screen" />
+    <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+    <!-- <![endif]-->
+    <!--[if IEMobile]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+        <link href="MobileStyleSheet.css" rel="stylesheet" />
+    <![endif]-->
+</head>
+
+<body>
+    <div class="Container">
+        <div class="content">
+            <section class="main_articles">
+                <article class="siteDescription">
+                    <div class="desImage">
+                     <h1>Welcome</h1>
+                     <h5>Second Hand BookStore</h5>
+                      </div>
+                    <div class="des login-form">
+                       <nav>
+                           <ul>
+                               <li><a href="login.html" class="active">Login</a></li> /
+                               <li><a href="singup.html">Sign up</a></li>
+                           </ul>
+                       </nav>
+                        <input type="text" placeholder="Account Name" />
+                        <br>
+                        <input type="password" placeholder="Password" />
+                        <br>
+                        <input type="text" placeholder="Verification Code" />
+                        <br>
+                        <label for="" class="label">
+                            <input type="checkbox" /> Remember Me</label>
+                        <br>
+                        <br>
+                        <input type="button" value="Login" class="login-button" />
+                        <br>
+                        <h6 class="no-access">Can't access your account?</h6> </div>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
