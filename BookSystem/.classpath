@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_91">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/activation.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/c3p0-0.9.2-pre1.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/commons-dbutils-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/itcast-tools-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/mail.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/传智播客_网上书城_文档资料/传智播客毕业设计资料和代码/文档/小工具/jar/mchange-commons-0.2.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/standard.jar"/>
+	<classpathentry kind="lib" path="D:/MyDownloads/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
